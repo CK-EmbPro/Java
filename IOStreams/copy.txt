@@ -1,0 +1,3 @@
+Although this multiplexing behavior could be implemented with threads.
+the selector can provide a significantly more efficient implementation.
+using lower.
