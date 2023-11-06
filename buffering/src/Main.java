@@ -23,7 +23,11 @@ public class Main {
             String line;
             while((line = readBuff.readLine())!=null){
                 System.out.println(line);
+                writeBuff.write(line);
+                writeBuff.newLine();
             }
+
+            writeBuff.close();
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
