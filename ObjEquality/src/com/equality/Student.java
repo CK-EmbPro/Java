@@ -1,8 +1,13 @@
+/**
+ * rw.ac.rca.collections The group of classes on collections
+ */
 package com.equality;
 
-public class Student {
+import java.util.Objects;
 
-    private int  code;
+public class Student{
+
+    private Integer  code;
     private String firstname;
     private String email;
 
@@ -12,11 +17,11 @@ public class Student {
         this.email = email;
     }
 
-    public int getCode() {
+    public Integer getCode() {
         return code;
     }
 
-    public void setCode(int code) {
+    public void setCode(Integer code) {
         this.code = code;
     }
 
@@ -45,5 +50,39 @@ public class Student {
                 '}';
     }
 
+//    Without including the getters and setters
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Student student)) return false;
+        return Objects.equals(code, student.code) && Objects.equals(firstname, student.firstname) && Objects.equals(email, student.email);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(code, firstname, email);
+    }
+
+//Without including the subclasses
+
+//    public boolean equals(Object obj){
+//        Student student = (Student) obj;
+//
+//        return this.code.equals(student.code);
+//    }
+
+//    public int hashCode(){
+//        return this.code.hashCode()+this.firstname.hashCode()+this.email.hashCode();
+//    }
+
+//    @Override
+//    public int compareTo(Object o) {
+//        Student st = (Student) o;
+//        if(this.code.compareTo(st.code)!=0)
+//            return this.code.compareTo(st.code);
+//        if(this.firstname.compareTo(st.firstname)!=0)
+//            return this.firstname.compareTo(st.firstname);
+//        return this.email.compareTo(st.email);
+//    }
 }
