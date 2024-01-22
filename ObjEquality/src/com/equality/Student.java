@@ -5,13 +5,45 @@ package com.equality;
 
 import java.util.Objects;
 
+/**
+ * The stduent class with compareTo method to facilitate sorting, hashCode, equals overriden from the Object
+ * The student has detailed information about names and identification
+ * @author ckdebman2
+ */
+
 public class Student{
 
+    /**
+     * Code unique code for student
+     */
+
     private Integer  code;
+
+    /**
+     * Firstname Religious name
+     */
     private String firstname;
+    /**
+     * Email of the student
+     */
     private String email;
 
+    /**
+     * Default constructor
+     */
+
+    public  Student(){
+        super();
+    }
+
+    /**
+     * @param code Code for the studnet
+     * @param firstname Religious name for the student
+     * @param email Email associated with Student
+     * Parameterised constructor for the Student class
+     */
     public Student(int code, String firstname, String email) {
+        super();
         this.code = code;
         this.firstname = firstname;
         this.email = email;
