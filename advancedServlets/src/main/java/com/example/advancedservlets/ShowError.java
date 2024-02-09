@@ -8,7 +8,7 @@ import java.util.*;
 @WebServlet(name = "showError", value = "/showerror")
 public class ShowError extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws  ServletException, IOException{
-        response.sendError();
+        response.sendError(407, "Need proxy auth");
 
     }
 
