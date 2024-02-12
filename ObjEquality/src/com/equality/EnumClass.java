@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.equality;
 
 public class EnumClass {
@@ -32,4 +33,7 @@ public class EnumClass {
 //        System.out.println(day1.ordinal());
 //    }
 
+=======
+package com.equality;public class EnumClass {
+>>>>>>> f1715f0 (Java progress)
 }

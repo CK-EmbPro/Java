@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.*;
 
 public class Lists {
@@ -10,4 +11,7 @@ public class Lists {
     }
 
 
+=======
+package PACKAGE_NAME;public class Lists {
+>>>>>>> f1715f0 (Java progress)
 }
