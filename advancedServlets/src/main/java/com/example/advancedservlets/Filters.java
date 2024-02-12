@@ -19,7 +19,7 @@ public class Filters implements Filter {
         String ipAdress = request.getRemoteAddr();
 
 //        LOg the IP address
-        System.out.println("IP" +ipAdress +", Time"+new Date().toString());
+        System.out.println("IP " +ipAdress +", Time"+new Date().toString());
 
 //        Pass request back down the filter chain
         chain.doFilter(request, response);
