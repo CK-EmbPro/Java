@@ -41,4 +41,10 @@
         <exception-type>java.io.IOException</exception-type>
         <location>/errorhandling</location>
     </error-page>
+
+    <session-config>
+        <session-timeout>15</session-timeout>
+    </session-config>
+
+
 </web-app>

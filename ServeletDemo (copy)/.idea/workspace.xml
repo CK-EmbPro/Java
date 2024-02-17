@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd932720-9986-4616-9483-00bf4502c9a3" name="Changes" comment="" />
+    <list default="true" id="fd932720-9986-4616-9483-00bf4502c9a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../advancedServlets/src/main/java/com/example/advancedservlets/SessionTracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat10servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomcat10servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advancedServlets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advancedServlets/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -51,7 +59,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 10.1.18.executor": "Run",
     "Tomcat Server.tomcatServlet.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/kali/IdeaProjects/advancedServlets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -173,6 +184,7 @@
       <workItem from="1706246079206" duration="491000" />
       <workItem from="1706250165410" duration="5996000" />
       <workItem from="1706518696869" duration="983000" />
+      <workItem from="1707901951394" duration="259000" />
     </task>
     <servers />
   </component>
