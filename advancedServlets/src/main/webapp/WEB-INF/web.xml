@@ -46,5 +46,8 @@
         <session-timeout>15</session-timeout>
     </session-config>
 
-
+    <context-param>
+        <param-name>file-upload</param-name>
+        <param-value>/opt/tomcat/webapps/data</param-value>
+    </context-param>
 </web-app>

@@ -10,12 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6ee8843-3d27-4012-896a-ac65f419bbfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/JDBConnectivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/JspStuffs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/SessionTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServeletDemo (copy)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServeletDemo (copy)/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServeletDemo (copy)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServeletDemo (copy)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tomcat10servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tomcat10servlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Term2CAT1Revision/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Term2CAT1Revision/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Term2CAT1Revision/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Term2CAT1Revision/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Term2CAT1Revision/src/main/java/com/example/term2cat1revision/Patterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Term2CAT1Revision/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Term2CAT1Revision/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/BatchProccWithPreparedStmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/BatchProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/DataTypesMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/FileUploadConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/FileUploadUsingMultiPartAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/FormattingDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/GoogleSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/PageRedirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/advancedservlets/StreamingDbData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileUploading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
@@ -30,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -62,27 +77,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/kali/Downloads/exists/mysql-connector-j-8.1.0.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kali/Documents/programming/Java/dependencies/commons-fileupload-1.3.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.18" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.18" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="20">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
@@ -197,7 +212,16 @@
       <workItem from="1707896369878" duration="3912000" />
       <workItem from="1707902210827" duration="1427000" />
       <workItem from="1708062124764" duration="5367000" />
-      <workItem from="1708176647595" duration="5951000" />
+      <workItem from="1708176647595" duration="6762000" />
+      <workItem from="1708335348642" duration="3476000" />
+      <workItem from="1708407571851" duration="5501000" />
+      <workItem from="1708606553458" duration="4123000" />
+      <workItem from="1708670699878" duration="12525000" />
+      <workItem from="1708690338851" duration="2830000" />
+      <workItem from="1708971116072" duration="58000" />
+      <workItem from="1709615857704" duration="4010000" />
+      <workItem from="1709623838948" duration="6458000" />
+      <workItem from="1709702014201" duration="5508000" />
     </task>
     <servers />
   </component>
