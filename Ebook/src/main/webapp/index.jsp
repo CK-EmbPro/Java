@@ -1,4 +1,6 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="com.DB.DBconnect" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,6 +62,7 @@
     <h2 class="text-center text-light no-select">EBook Management System</h2>
 </div>
 
+<% Connection conn= DBconnect.getConn(); out.print(conn); %>
 <%--Recent book section--%>
 <div class="container-fluid">
     <h3 class="text-center">Recent book</h3>
