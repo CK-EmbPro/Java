@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 <head>
     <%@include file="all_components/allCSS.jsp" %>
@@ -20,18 +21,23 @@
             <div class="card">
                 <div class="card-body">
                     <h3 class="text-center">Login</h3>
-                    <form>
+                    <c:if test = "${not empty failedMsg}" >
+                        <h5 class="text-danger text-center">${failedMsg}</h5>
+                        <c:remove var="failedMsg" scope="session" />
+                    </c:if>
+
+                    <form action="login" method="POST">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                   aria-describedby="emailHelp" required="required">
+                                   aria-describedby="emailHelp" required="required" name="email">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" required="required">
+                            <input type="password" class="form-control" id="exampleInputPassword1" required="required" name="password">
                         </div>
                         <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" name="check">
                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
                         <div class="text-center">

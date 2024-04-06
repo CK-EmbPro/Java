@@ -9,7 +9,6 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-
 import java.io.IOException;
 
 @WebServlet(name = "Register", value = "/register")
@@ -37,15 +36,15 @@ public class RegisterServlet extends HttpServlet {
 
             if(userRegistered){
                 userSession.setAttribute("successMsg", "user registered successfully");
-
-                resp.sendRedirect("register.jsp");
+                resp.sendRedirect("index.jsp");
             }else{
-                userSession.setAttribute("failedMsg", "Failed to register the user");
-                resp.sendRedirect("/register.jsp");
+                userSession.setAttribute("failedMsg", "There is a problem on a server");
+                resp.sendRedirect("register.jsp");
             }
 
         }else{
-            System.out.println("please agreee the terms and conditions");
+            userSession.setAttribute("failedMsg", "Please agree terms and conditions");
+            resp.sendRedirect("register.jsp");
         }
 
 

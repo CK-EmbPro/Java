@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 <head>
     <%@include file="all_components/allCSS.jsp" %>
@@ -20,12 +20,19 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="text-center">Registration form</h4>
-                    <% if (true){
-                        System.out.println("the msg is: ");
-                    }%>
-<%--                    <c:if test ="${not empty successMsg}">--%>
-<%--                        <p class="text-center">msg is: {successMsg}</p>--%>
-<%--                    </c:if>>--%>
+<%--                    <% if (true){--%>
+<%--                        System.out.println("the msg is: ");--%>
+<%--                    }%>--%>
+                    <c:if test ="${not empty successMsg}">
+                        <p class="text-center text-success">${successMsg}</p>
+                        <c:remove var ="successMsg" scope="session" />
+                    </c:if>
+
+                    <c:if test="${not empty failedMsg}">
+                        <p class="text-center text-danger">${failedMsg}</p>
+                        <c:remove var="failedMsg" scope="session" />
+                    </c:if>
+
                     <form action="register" method="POST">
 
                         <div class="mb-3">
